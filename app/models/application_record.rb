@@ -1,5 +1,5 @@
 class ApplicationRecord < ActiveRecord::Base
-  self.abstract = true
+  self.abstract_class = true
 end
 
 
